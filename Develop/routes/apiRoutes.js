@@ -2,6 +2,9 @@
 
 var path = require("path");
 var router = require("express").Router();
+var fs=require("fs")
+const { v4: uuidv4 } = require('uuid');
+
 
 
 
@@ -14,13 +17,31 @@ var router = require("express").Router();
 
   router.post("/notes", function(req, res) {
     userInput = req.body;
-console.log(userInput);
+
+let dbInfo=fs.readFileSync("./db/db.json","utf-8")
+
+let newDbInfo=JSON.parse(dbInfo)
+
+
+userInput.id=uuidv4(); 
+
+
+newDbInfo.push(userInput)
+
+fs.writeFile("./db/db.json",JSON.stringify(newDbInfo),function(err){
+  if(err){
+    console.log(err)
+  }
+})
+
+res.end()
+
 
   })
 
-  router.get("/notes", function(req, res) {
-    userInput = req.body;
-console.log(userInput);
+  router.get("/api/notes", function(req, res) {
+    console.log("api call on notes")
+
 
   })
 
