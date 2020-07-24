@@ -1,8 +1,10 @@
 # MY PROJECT
   Note-taker Homework
 
-  Linkt to GitHub: https://github.com/tmsmith1150/note-taker
+  Links to GitHub: https://github.com/tmsmith1150/note-taker
                    https://tmsmith1150.github.io/note-taker/
+  Link to Deployed App: https://rocky-anchorage-56369.herokuapp.com/
+
 
 __##Description__
 Application that allows users to post notes, review notes, and delete notes.
