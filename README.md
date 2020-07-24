@@ -1,8 +1,8 @@
 # MY PROJECT
   Note-taker Homework
 
-  Linkt to GitHub: https://tmsmith1150.github.io/note-taker/.
-
+  Linkt to GitHub: https://github.com/tmsmith1150/note-taker
+                   https://tmsmith1150.github.io/note-taker/
 
 __##Description__
 Application that allows users to post notes, review notes, and delete notes.
