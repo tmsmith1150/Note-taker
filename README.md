@@ -2,7 +2,7 @@
   Note-taker Homework
 
   Links to GitHub: https://github.com/tmsmith1150/note-taker
-                   https://tmsmith1150.github.io/note-taker/
+                   
   Link to Deployed App: https://rocky-anchorage-56369.herokuapp.com/
 
 
